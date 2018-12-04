@@ -1,0 +1,59 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Project5-Brown</title>
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/proj5.js"></script>
+    <link rel="stylesheet" href="css/css5.css"/>
+  </head>
+  <body>
+     <h3>Project5-Brown</h3>
+    
+<div class="shown">
+  <div class="small">
+    <img src="download.jfif" onclick="openModal();currentSlide(1)" class="hover-shadow" >
+  </div>
+  <div class="small">
+    <img src="roses.jfif" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="small">
+    <img src="sunflower.jfif"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="small">
+    <img src="violet.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="download.jfif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="roses.jfif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="sunflower.jfif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="violet.jpg" style="width:100%">
+    </div>
+
+    
+    <a class="back" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+</div>
+
+</body>
+</html>
